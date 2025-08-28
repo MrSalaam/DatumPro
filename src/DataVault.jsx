@@ -247,6 +247,10 @@ const Dashboard = () => {
         flex flex-col flex-shrink-0 transform transition-transform duration-300 ease-in-out
         ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}
       `}>
+
+
+      <div className="flex-1 overflow-y-auto"> 
+
         {/* Logo */}
         <motion.div
           initial={{ scale: 0.8, opacity: 0 }}
@@ -320,6 +324,8 @@ const Dashboard = () => {
 
         <div className='border-t border-gray-800 my-6 mx-6'></div>
 
+      
+
         {/* Preferences */}
         <div className="px-6 mb-8">
           <h3 className="text-xs uppercase tracking-wider text-gray-400 mb-4 ml-4 font-medium">
@@ -353,25 +359,23 @@ const Dashboard = () => {
           </nav>
         </div>
 
+      </div>
+
         {/* User Section */}
-        <div className="p-6 border-t border-gray-800">
-          <div className="flex items-center space-x-3 group cursor-pointer">
-            <div className="w-10 h-10  rounded-full flex items-center justify-center transition-transform group-hover:scale-110">
-              <img className='rounded-full w-10 h-10' src='/images/yinka.jpg'/>
-            </div>
-            <div className="flex-1 min-w-0">
-              <p className="text-sm font-semibold text-white truncate">
-                Yinka Salaam
-              </p>
-              <p className="text-xs text-gray-400 truncate">
-                Project Manager
-              </p>
-            </div>
-            <button className="text-gray-400 hover:text-red-400 transition-all duration-300 hover:scale-110">
-              <LogOut size={18} />
-            </button>
-          </div>
-        </div>
+        <div className="p-6 border-t border-gray-800 sticky bottom-0 bg-[#1E1E1E]">
+    <div className="flex items-center space-x-3 group cursor-pointer">
+      <div className="w-10 h-10 rounded-full overflow-hidden">
+        <img className='w-full h-full object-cover' src='/images/yinka.jpg' alt="User"/>
+      </div>
+      <div className="flex-1 min-w-0">
+        <p className="text-sm font-semibold text-white truncate">Yinka Salaam</p>
+        <p className="text-xs text-gray-400 truncate">Project Manager</p>
+      </div>
+      <button className="text-gray-400 hover:text-red-400 transition-all duration-300 hover:scale-110">
+        <LogOut size={18} />
+      </button>
+    </div>
+  </div>
       </div>
 
       {/* Main Content */}
