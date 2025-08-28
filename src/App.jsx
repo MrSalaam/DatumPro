@@ -4,7 +4,9 @@ function App() {
 
   return (
     <>
-    <DataVault />
+    <div className='min-h-screen'>
+     <DataVault />
+    </div>
     </>
   )
 }
