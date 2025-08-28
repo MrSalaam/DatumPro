@@ -32,4 +32,23 @@ git clone https://github.com/MrSalaam/DatumPro.git
 cd DatumPro
 npm install
 
+---
+
+## 📜 License
+This project is licensed under the **MIT License**.  
+You’re free to use, modify, and distribute it.  
+
+---
+
+## 👨‍💻 Author
+Built by **Olayinka Salaam** 🚀  
+Frontend Developer | Passionate about **modern UI & React**  
+
+---
+## 🙌 Acknowledgements
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Recharts](https://recharts.org/)
+
+
 
