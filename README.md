@@ -19,19 +19,10 @@ A modern, responsive **React Dashboard** built with **Tailwind CSS**, animated w
 - 🔔 **Dashboard Widgets**: Notifications, Tasks, Calendar, etc.  
 
 ---
-
-
-
-
-## 📦 Installation
-
-Clone the repository and install dependencies:
-
-```bash
-git clone https://github.com/MrSalaam/DatumPro.git
-cd DatumPro
-npm install
-
+## 🙌 Acknowledgements
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Recharts](https://recharts.org/)
 ---
 
 ## 📜 License
@@ -45,10 +36,21 @@ Built by **Olayinka Salaam** 🚀
 Frontend Developer | Passionate about **modern UI & React**  
 
 ---
-## 🙌 Acknowledgements
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [Recharts](https://recharts.org/)
 
+
+
+
+
+
+
+
+## 📦 Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/MrSalaam/DatumPro.git
+cd DatumPro
+npm install
 
 
